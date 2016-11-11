@@ -1,0 +1,43 @@
+$brand-primary: #3B73B3!default;
+$brand-secondary: #F5A53D!default;
+
+// TODO: create a way to write it in mixin
+$brand-primary-palette: (
+  100: mix($brand-primary, #fff, 90%),
+  200: mix($brand-primary, #fff, 80%),
+  300: mix($brand-primary, #fff, 70%),
+  400: mix($brand-primary, #fff, 60%),
+  500: mix($brand-primary, #fff, 50%),
+  600: mix($brand-primary, #fff, 40%),
+  700: mix($brand-primary, #fff, 30%),
+  800: mix($brand-primary, #fff, 20%),
+  900: mix($brand-primary, #fff, 10%)
+);
+
+$brand-secondary-palette: (
+  100: mix($brand-secondary, #fff, 90%),
+  200: mix($brand-secondary, #fff, 80%),
+  300: mix($brand-secondary, #fff, 70%),
+  400: mix($brand-secondary, #fff, 60%),
+  500: mix($brand-secondary, #fff, 50%),
+  600: mix($brand-secondary, #fff, 40%),
+  700: mix($brand-secondary, #fff, 30%),
+  800: mix($brand-secondary, #fff, 20%),
+  900: mix($brand-secondary, #fff, 10%)
+);
+
+$gray-color-palette: (
+  100: #f7f7f7,
+  200: #e6e6e6,
+  300: #ccc,
+  400: #c0c0c0,
+  500: #a6a6a6,
+  600: #999,
+  700: #808080,
+  800: #292929,
+);
+
+$status-color-palette: (
+  200: #81d135,
+  400: #ce0b24
+);
