@@ -1,5 +1,6 @@
 $brand-primary: #3B73B3!default;
 $brand-secondary: #F5A53D!default;
+$black: #000;
 
 // TODO: create a way to write it in mixin
 $brand-primary-palette: (
@@ -27,14 +28,15 @@ $brand-secondary-palette: (
 );
 
 $gray-color-palette: (
-  100: #f7f7f7,
-  200: #e6e6e6,
-  300: #ccc,
-  400: #c0c0c0,
-  500: #a6a6a6,
-  600: #999,
-  700: #808080,
-  800: #292929,
+  100: mix($black, #fff, 90%),
+  200: mix($black, #fff, 80%),
+  300: mix($black, #fff, 70%),
+  400: mix($black, #fff, 60%),
+  500: mix($black, #fff, 50%),
+  600: mix($black, #fff, 40%),
+  700: mix($black, #fff, 30%),
+  800: mix($black, #fff, 20%),
+  900: mix($black, #fff, 10%)
 );
 
 $status-color-palette: (

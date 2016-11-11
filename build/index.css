@@ -1,0 +1,84 @@
+.flex {
+  display: flex;
+  flex-wrap: wrap; }
+  .flex .flex-item {
+    flex-grow: 1;
+    margin: 10px;
+    min-width: 250px; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+  ul li {
+    list-style-type: none;
+    padding: 20px; }
+
+.primary-pallette li:nth-child(1) {
+  background: #3B73B3; }
+.primary-pallette li:nth-child(2) {
+  background: #4f81bb; }
+.primary-pallette li:nth-child(3) {
+  background: #628fc2; }
+.primary-pallette li:nth-child(4) {
+  background: #769dca; }
+.primary-pallette li:nth-child(5) {
+  background: #89abd1; }
+.primary-pallette li:nth-child(6) {
+  background: #9db9d9; }
+.primary-pallette li:nth-child(7) {
+  background: #b1c7e1; }
+.primary-pallette li:nth-child(8) {
+  background: #c4d5e8; }
+.primary-pallette li:nth-child(9) {
+  background: #d8e3f0; }
+.primary-pallette li:nth-child(10) {
+  background: #ebf1f7; }
+
+.secondary-pallette li:nth-child(1) {
+  background: #F5A53D; }
+.secondary-pallette li:nth-child(2) {
+  background: #f6ae50; }
+.secondary-pallette li:nth-child(3) {
+  background: #f7b764; }
+.secondary-pallette li:nth-child(4) {
+  background: #f8c077; }
+.secondary-pallette li:nth-child(5) {
+  background: #f9c98b; }
+.secondary-pallette li:nth-child(6) {
+  background: #fad29e; }
+.secondary-pallette li:nth-child(7) {
+  background: #fbdbb1; }
+.secondary-pallette li:nth-child(8) {
+  background: #fce4c5; }
+.secondary-pallette li:nth-child(9) {
+  background: #fdedd8; }
+.secondary-pallette li:nth-child(10) {
+  background: #fef6ec; }
+
+.gray-pallette li:nth-child(1) {
+  background: #000; }
+.gray-pallette li:nth-child(2) {
+  background: #1a1a1a; }
+.gray-pallette li:nth-child(3) {
+  background: #333333; }
+.gray-pallette li:nth-child(4) {
+  background: #4d4d4d; }
+.gray-pallette li:nth-child(5) {
+  background: #666666; }
+.gray-pallette li:nth-child(6) {
+  background: gray; }
+.gray-pallette li:nth-child(7) {
+  background: #999999; }
+.gray-pallette li:nth-child(8) {
+  background: #b3b3b3; }
+.gray-pallette li:nth-child(9) {
+  background: #cccccc; }
+.gray-pallette li:nth-child(10) {
+  background: #e6e6e6; }
+
+.status-pallette li:nth-child(1) {
+  background: #81d135; }
+.status-pallette li:nth-child(2) {
+  background: #ce0b24; }
+
+/*# sourceMappingURL=index.css.map */
