@@ -1,0 +1,64 @@
+@import '../style';
+
+@mixin generate-pallette($brand-color-pallette) {
+	@for $i from 0 through 9 {
+		&:nth-child(#{$i+1}) {
+			background: map-get($brand-color-pallette, $i*100);
+		}
+	}
+}
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+	.flex-item {
+		flex-grow: 1;
+		margin: 10px;
+		min-width: 250px;
+	}
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	li {
+		list-style-type: none;
+		padding: 20px;
+	}
+}
+
+
+.primary-pallette {
+	li {
+		&:nth-child(1) {
+			background: $brand-primary;
+		}
+		@include generate-pallette($brand-primary-palette);
+	}
+}
+
+.secondary-pallette {
+	li {
+		&:nth-child(1) {
+			background: $brand-secondary;
+		}
+		@include generate-pallette($brand-secondary-palette);
+	}
+}
+
+.gray-pallette {
+	li {
+		&:nth-child(1) {
+			background: $black;
+		}
+		@include generate-pallette($gray-color-palette);
+	}
+}
+.status-pallette {
+	li:nth-child(1) {
+		background: map-get($status-color-palette, 200);
+	}
+	li:nth-child(2) {
+		background: map-get($status-color-palette, 400);
+	}
+}
